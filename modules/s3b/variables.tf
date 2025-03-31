@@ -7,6 +7,7 @@ variable "region" {
 variable "bucket" {
   description = "Name of the S3 bucket"
   type        = string
+  default     = "cloudGoDeployment"
 }
 
 variable "force_destroy" {
