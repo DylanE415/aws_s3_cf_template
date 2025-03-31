@@ -12,7 +12,7 @@ variable "bucket" {
 variable "force_destroy" {
   description = "If true, all objects in the bucket will be deleted on destroy"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "acl" {
